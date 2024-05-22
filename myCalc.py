@@ -2,7 +2,7 @@ import math
 
 from Tools.demo.beer import n
 
-
+#this is my simple calc
 def add(x,y):
     return x+y
 def subtract(x,y):
@@ -120,16 +120,5 @@ while True:
         print("Invalid Input")
 
 
-        #creating a armstrong number program in python
-        print("Generating:");
-        for i in range(1,1000):
-            sum = 0
-            temp = i
-            while temp > 0:
-                digit = temp % 10
-                sum += digit ** 3
-                temp //= 10
-            if i == sum:
-                print(i)
 
 
